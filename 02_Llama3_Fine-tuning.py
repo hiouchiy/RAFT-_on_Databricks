@@ -87,7 +87,7 @@ training_dataset.display()
 from pyspark.sql.functions import pandas_udf
 import pandas as pd
 
-base_model_name = "meta-llama/Meta-Llama-3-8B-Instruct"
+base_model_name = "meta-llama/Meta-Llama-3.1-70B-Instruct" # "meta-llama/Meta-Llama-3.1-8B-Instruct"
 
 system_prompt = """* You are an excellent AI assistant.
 * Please respond to user questions based on the reference information enclosed within  <DOCUMENT> and </DOCUMENT>. However, some of the reference information may be irrelevant, so please ignore any unrelated parts.
